@@ -19,7 +19,6 @@ class EnvReader
   end
 
   def valid?
-    binding.pry
     puts 'Validating configurations'
     value = false
     if not ENV['SlackUrl']
