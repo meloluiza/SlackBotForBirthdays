@@ -4,7 +4,7 @@ task :default do
 end
 
 desc 'Checks if today is someone\'s birthday. If so, pushes a message to Slack.'
-task congratulate: :dotenv do
+task :congratulate do
   ruby 'congratulate.rb'
 end
 
