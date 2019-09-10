@@ -4,7 +4,6 @@ $:.unshift(File.join(APP_ROOT, 'lib'))
 require 'birthday_bot'
 require 'env_reader'
 require 'dotenv/load'
-require 'pry-byebug'
 
 puts '🤖 Bot is booting...'
 
